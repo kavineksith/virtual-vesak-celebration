@@ -40,3 +40,7 @@ The application interface is grounded in intentional visual design:
 - **Atmospheric Depth:** Using layered SVG filters, `mix-blend-mode`, and carefully tuned drop-shadows to emulate natural light scattering in the dark.
 - **Elegance:** A refined typographic pairing of serif headings and clean sans-serif body text to convey a serene, festival-appropriate mood.
 - **Performance:** Extensive use of component memoization (`React.memo`) and raw canvas rendering for complex particle systems to maintain a high framerate during interactions.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
