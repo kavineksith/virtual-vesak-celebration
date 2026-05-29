@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-cinzel: "Cinzel", serif;
+  
+  --color-vesak-base: #0B1020;
+  --color-vesak-dark: #111827;
+  --color-vesak-blue: #1E293B;
+  --color-vesak-gold: #FDE047;
+  --color-vesak-amber: #D97706;
+  --color-vesak-moon: #FFFBEB;
+}
+
+body {
+  @apply bg-vesak-base text-slate-200 antialiased overflow-x-hidden selection:bg-vesak-gold/30 selection:text-vesak-gold;
+}
+
+/* Custom Utilities for cinematic glows */
+.glow-gold {
+  filter: drop-shadow(0 0 20px rgba(253, 224, 71, 0.4)) drop-shadow(0 0 40px rgba(253, 224, 71, 0.2));
+}
+
+.moon-glow {
+  box-shadow: 0 0 100px 40px rgba(255, 251, 235, 0.3), inset 0 0 40px 10px rgba(255, 251, 235, 0.8);
+}
+
+.lantern-glow {
+  box-shadow: 0 0 30px 15px rgba(217, 119, 6, 0.2);
+}
+
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
