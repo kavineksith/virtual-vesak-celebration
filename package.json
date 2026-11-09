@@ -30,13 +30,13 @@
   "devDependencies": {
     "@types/dompurify": "^3.2.0",
     "@types/express": "^5.0.6",
-    "@types/helmet": "^0.0.48",
-    "@types/node": "^22.14.0",
-    "autoprefixer": "^10.4.21",
-    "esbuild": "^0.28.1",
+    "@types/helmet": "^4.0.0",
+    "@types/node": "^26.6.6",
+    "autoprefixer": "^10.6.2",
+    "esbuild": "^0.28.2",
     "tailwindcss": "^4.1.14",
-    "tsx": "^4.21.0",
-    "typescript": "~5.8.2",
+    "tsx": "^4.23.15",
+    "typescript": "~7.0.2",
     "vite": "^8.3.6"
   }
 }
