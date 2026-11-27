@@ -32,7 +32,7 @@
     "@types/express": "^5.0.6",
     "@types/helmet": "^4.0.0",
     "@types/node": "^26.6.6",
-    "autoprefixer": "^10.6.2",
+    "autoprefixer": "^10.7.0",
     "esbuild": "^0.28.2",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.23.15",
